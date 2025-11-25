@@ -6,10 +6,14 @@
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xwcet"]
 texture = ExtResource("2_33cqm")
+0:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+1:0/0 = 0
+2:0/0 = 0
 2:1/0 = 0
-2:4/0 = 0
+3:1/0 = 0
 4:1/0 = 0
-4:2/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_p1ry8"]
 physics_layer_0/collision_layer = 1
@@ -449,7 +453,7 @@ sources/0 = SubResource("TileSetAtlasSource_33cqm")
 [node name="ForGround" type="TileMapLayer" parent="Tilesets"]
 z_index = 1
 y_sort_enabled = true
-tile_map_data = PackedByteArray("AAACAP//AAAEAAEAAAAKAP//AAAEAAEAAAADAAIAAAAEAAEAAAAIAPz/AAAEAAEAAAACAAAAAAAEAAIAAAAIAP3/AAAEAAIAAAAKAAAAAAAEAAIAAAADAAMAAAAEAAIAAAA=")
+tile_map_data = PackedByteArray("AAACAAAAAAAAAAAAAAACAAEAAAAAAAEAAAAGAP3/AAAAAAAAAAAGAP7/AAAAAAEAAAAJAAEAAAAAAAAAAAAJAAIAAAAAAAEAAAAEAAIAAAADAAEAAAAJAP7/AAAEAAEAAAAHAAMAAAAEAAEAAAA=")
 tile_set = SubResource("TileSet_p1ry8")
 
 [node name="Ground" type="TileMapLayer" parent="Tilesets"]
